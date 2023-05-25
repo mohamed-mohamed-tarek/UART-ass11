@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Digital Electronics/Projects/UART Repo/UART/UART Top
+vUART_TOP
+!s110 1660052521
+!i10b 1
+!s100 4goY]OJ>IhC:Pn:_oRCXf1
+IB`TG7[zSXQn:;XDMbPhTf0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1660051773
+8.\UART_TOP.v
+F.\UART_TOP.v
+L0 3
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1660052521.000000
+!s107 CONFIG_MACROS.v|.\UART_TOP.v|
+!s90 .\UART_TOP.v|
+!i113 1
+tCvgOpt 0
+n@u@a@r@t_@t@o@p

@@ -1,0 +1,75 @@
+# OpenFile ./UART_TX_Top.v
+vsim work.UART_TX_Top
+# vsim work.UART_TX_Top 
+# Start time: 19:04:39 on Jul 18,2022
+# Loading work.UART_TX_Top
+# Loading work.FSM
+# Loading work.MUX
+# Loading work.serializer
+# Loading work.Parity_Calc
+add wave -position insertpoint  \
+sim:/UART_TX_Top/Data_Valid \
+sim:/UART_TX_Top/CLK \
+sim:/UART_TX_Top/parity_enable \
+sim:/UART_TX_Top/P_DATA \
+sim:/UART_TX_Top/RST \
+sim:/UART_TX_Top/parity_type \
+sim:/UART_TX_Top/busy \
+sim:/UART_TX_Top/TX_OUT \
+sim:/UART_TX_Top/ser_data_int \
+sim:/UART_TX_Top/ser_en_int \
+sim:/UART_TX_Top/ser_done_int \
+sim:/UART_TX_Top/par_bit_int \
+sim:/UART_TX_Top/mux_sel_int
+add wave -position insertpoint  \
+sim:/UART_TX_Top/FSM_Module/PS
+add wave -position insertpoint  \
+sim:/UART_TX_Top/serializer_Module/Counter
+force -freeze sim:/UART_TX_Top/Data_Valid 0 0
+force -freeze sim:/UART_TX_Top/CLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/UART_TX_Top/parity_enable 1 0
+force -freeze sim:/UART_TX_Top/P_DATA 8'd161 0
+force -freeze sim:/UART_TX_Top/RST 0 0
+force -freeze sim:/UART_TX_Top/parity_type 1 0
+run
+force -freeze sim:/UART_TX_Top/RST St1 0
+run
+run
+force -freeze sim:/UART_TX_Top/Data_Valid St1 0
+run
+run
+run
+add wave -position insertpoint  \
+sim:/UART_TX_Top/serializer_Module/Counter
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/UART_TX_Top/Data_Valid St0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 19:14:03 on Jul 18,2022, Elapsed time: 0:09:24
+# Errors: 0, Warnings: 0

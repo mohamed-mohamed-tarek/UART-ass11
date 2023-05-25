@@ -1,0 +1,217 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Digital Electronics/Projects/UART/UART Tx
+vFSM
+!s110 1659980466
+!i10b 1
+!s100 1[Q>S8<[flnCERHIULG:a0
+I_lRRN:I]dgXCbA83WVgLY1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Digital Electronics/Projects/UART Repo/UART/UART Tx
+w1659980447
+8.\FSM.v
+F.\FSM.v
+Z3 L0 15
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1659980466.000000
+!s107 CONFIG_MACROS.v|.\FSM.v|
+!s90 .\FSM.v|
+!i113 1
+Z5 tCvgOpt 0
+n@f@s@m
+vmux
+!s110 1659980470
+!i10b 1
+!s100 YlOe8D=OV`z8S>>VWY1j@0
+IUUID?FnPZEd64XKE`5H9b1
+R1
+R2
+w1658165913
+8.\mux.v
+F.\mux.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1659980470.000000
+!s107 .\mux.v|
+!s90 .\mux.v|
+!i113 1
+R5
+vMUX
+!s110 1658164494
+!i10b 1
+!s100 ;Wg0_gcmJTAkXR9bAmRfk3
+IALI1CC4_bl9X`5mJ^hK1a2
+R1
+R0
+w1658164476
+8.\MUX.v
+F.\MUX.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1658164494.000000
+!s107 .\MUX.v|
+!s90 .\MUX.v|
+!i113 1
+R5
+n@m@u@x
+vParity_Calc
+!s110 1658163757
+!i10b 1
+!s100 3DP;dS0JlEm^HoCkeTlF:2
+IlO8AQ@P1[<7KL4C5k73o:0
+R1
+R0
+w1658157266
+8.\Parity_Calc.v
+F.\Parity_Calc.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1658163757.000000
+!s107 .\Parity_Calc.v|
+!s90 .\Parity_Calc.v|
+!i113 1
+R5
+n@parity_@calc
+vparity_calc
+!s110 1660045726
+!i10b 1
+!s100 z2QIF^1o^_R>bN;O@K6?[0
+IK?neb?k`^ZoYaD;S^iS@;2
+R1
+R2
+w1660045700
+8.\parity_calc.v
+F.\parity_calc.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1660045726.000000
+!s107 CONFIG_MACROS.v|.\parity_calc.v|
+!s90 .\parity_calc.v|
+!i113 1
+R5
+vSerializer
+!s110 1659980477
+!i10b 1
+!s100 Qn6YgDDA5O9OMdioe]@`z3
+ITkTLW]6[UHR?nkGClAzI60
+R1
+R2
+w1659980238
+8.\Serializer.v
+F.\Serializer.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1659980477.000000
+!s107 CONFIG_MACROS.v|.\Serializer.v|
+!s90 .\Serializer.v|
+!i113 1
+R5
+n@serializer
+vserializer
+!s110 1658163856
+!i10b 1
+!s100 dnR1E7Kh]<2SQPI256lY32
+ICJ8?BIm6IJimzgZUhZXAm3
+R1
+R0
+w1658163850
+8.\serializer.v
+F.\serializer.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1658163855.000000
+!s107 .\serializer.v|
+!s90 .\serializer.v|
+!i113 1
+R5
+vTX_FSM
+!s110 1660228185
+!i10b 1
+!s100 6Xl:U;z0D8@INKFmRk^o`1
+I:FmBcnN5JdRKgNec8d5J41
+R1
+R2
+w1660228163
+8.\TX_FSM.v
+F.\TX_FSM.v
+R3
+R4
+r1
+!s85 0
+31
+!s108 1660228185.000000
+!s107 CONFIG_MACROS.v|.\TX_FSM.v|
+!s90 .\TX_FSM.v|
+!i113 1
+R5
+n@t@x_@f@s@m
+vUART_TX
+!s110 1660228181
+!i10b 1
+!s100 EmSOTCflQN<9E<_Qa9;;30
+In3dg6>PVSR7zTP]gO8:Sj1
+R1
+R2
+w1660228170
+8.\UART_TX.v
+F.\UART_TX.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1660228180.000000
+!s107 CONFIG_MACROS.v|.\UART_TX.v|
+!s90 .\UART_TX.v|
+!i113 1
+R5
+n@u@a@r@t_@t@x
+vUART_TX_Top
+!s110 1658164522
+!i10b 1
+!s100 lCVg4T_<Z1;5SCY[1H7YH3
+IhYEZdjGJzjS`i66gV]lfj1
+R1
+R0
+w1658164516
+8.\UART_TX_Top.v
+F.\UART_TX_Top.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1658164521.000000
+!s107 .\UART_TX_Top.v|
+!s90 .\UART_TX_Top.v|
+!i113 1
+R5
+n@u@a@r@t_@t@x_@top

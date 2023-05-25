@@ -1,0 +1,68 @@
+# OpenFile ./UART_RX_TB.v
+vsim work.UART_RX_TB
+# vsim work.UART_RX_TB 
+# Start time: 16:16:48 on Aug 11,2022
+# Loading work.UART_RX_TB
+# Loading work.UART_RX
+# Loading work.RX_FSM
+# Loading work.deserializer
+# Loading work.strt_check
+# Loading work.parity_check
+# Loading work.stp_check
+# Loading work.edge_bit_counter
+# Loading work.data_sampler
+run
+# 
+# The Single Frame Tests ...
+# 
+# 
+# Checking DataValid and P_DATA = 0 After Reset
+# Data Valid = 0 (par_err = 0, stp_err = 0) and P_DATA = 00000000 Specified Passed
+# 
+# Checking DataValid = 1 and P_DATA = 0111_1111 In Case The Frame Is Correct
+# Data Valid = 1 (par_err = 0, stp_err = 0) and P_DATA = 01111111 Specified Passed
+# 
+# Checking DataValid = 0 and P_DATA = 0111_1111 In Case The Parity Bit (ODD) is Wrong
+# Data Valid = 0 (par_err = 1, stp_err = 0) and P_DATA = 01111111 Specified Passed
+# 
+# Checking DataValid = 0 and P_DATA = 0111_1111 In Case The Stop Bit And The Parity Bit (ODD) are Wrong
+# Data Valid = 0 (par_err = 1, stp_err = 1) and P_DATA = 01111111 Specified Passed
+# 
+# Checking DataValid = 0 and P_DATA = 0111_1111 In Case The Parity Bit (EVEN) is Wrong
+# Data Valid = 0 (par_err = 1, stp_err = 0) and P_DATA = 01111111 Specified Passed
+# 
+# Checking DataValid = 0 and P_DATA = 0111_1111 In Case The Stop Bit And The Parity Bit (EVEN) are Wrong
+# Data Valid = 0 (par_err = 1, stp_err = 1) and P_DATA = 01111111 Specified Passed
+# 
+# Checking DataValid = 1 and P_DATA = 0111_1111 In Case The Frame Is Correct (par_en = 0)
+# Data Valid = 1 (par_err = 0, stp_err = 0) and P_DATA = 01111111 Specified Passed
+# 
+# Checking DataValid = 0 and P_DATA = 0111_1111 In Case The Stop Bit Is Wrong (par_en = 0)
+# Data Valid = 0 (par_err = 0, stp_err = 1) and P_DATA = 01111111 Specified Passed
+# 
+# The Consequent Frames Tests ...
+# 
+# 
+# Testing 2 Correct Frames:
+# The First Frame Should be Correct...
+# Data Valid = 1 (par_err = 0, stp_err = 0) and P_DATA = 01111111 Specified Passed
+# The Second Frame Should be Correct...
+# Data Valid = 1 (par_err = 0, stp_err = 0) and P_DATA = 01111111 Specified Passed
+# 
+# Testing Correct Frame Folllowed By a Wrong One:
+# The First Frame Should be Correct...
+# Data Valid = 1 (par_err = 0, stp_err = 0) and P_DATA = 01111111 Specified Passed
+# The Second Frame Should be Wrong (Par_err = 1)...
+# Data Valid = 0 (par_err = 1, stp_err = 0) and P_DATA = 01111111 Specified Passed
+# 
+# Testing a Wrong Frame Followed by a Correct One:
+# The First Frame Should be Wrong(par_err = 1)...
+# Data Valid = 0 (par_err = 1, stp_err = 0) and P_DATA = 01111111 Specified Passed
+# The Second Frame Should be Correct...
+# Data Valid = 1 (par_err = 0, stp_err = 0) and P_DATA = 01111111 Specified Passed
+# ** Note: $finish    : ./UART_RX_TB.v(168)
+#    Time: 13714 ps  Iteration: 0  Instance: /UART_RX_TB
+# 1
+# Break in Module UART_RX_TB at ./UART_RX_TB.v line 168
+# End time: 16:22:30 on Aug 11,2022, Elapsed time: 0:05:42
+# Errors: 0, Warnings: 0
